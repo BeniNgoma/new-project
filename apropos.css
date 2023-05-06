@@ -1,0 +1,241 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+
+.navbar{
+    min-height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: blueviolet;
+   
+}
+.navbar ul  {
+    display: flex;
+    list-style: none;
+    
+}
+.navbar ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.logo{
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+     }
+     .section-slider{
+        padding: 2% 10%;
+        height: 40vh;
+        min-height: 40vh;
+        background-color: black;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .section-slider{
+    padding: 2% 10%;
+    height: 40vh;
+    min-height: 40vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.h1{
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px){
+    .section-slider{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1% 5%; 
+ }        
+}
+.sect1{
+    height:70vh ;
+    min-height: auto;
+    padding:   2% 5%; 
+    display: flex;
+}
+.card-gauche{
+    width: 45%;
+    padding:   2% 5%; 
+}
+.card-photo{
+    height: 100%;
+    width: 100%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-gauche{
+    width: 45%;
+    padding:   2% 5%; 
+}.card-droit{
+    width: 45%;
+    padding:   2% 5%; 
+
+}
+@media screen and (max-width:768px){
+    .sect1{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+ }     
+ .card-gauche{
+    width: 90%;
+   }
+   .card-droit{
+    width: 90%;
+
+   }
+}
+.sect2{
+    height: 70vh;
+    min-height: auto;
+    display: flex;
+    padding:   2% 5%;
+}
+.card-gauche{
+    width: 44%;
+    padding:   2% 5%; 
+}
+.card-droit{
+    width: 44%;
+    padding:   2% 5%; 
+
+}
+.card-gauche1{
+    height: 50%;
+    width: 100%;
+    margin-bottom:   2% ; 
+}
+.card-gauche2{
+    height: 50%;
+    width: 100%;
+    margin-top:  2% ; 
+
+}
+
+.card-droit{
+    width: 44%;
+    padding:   2% 5%; 
+
+}
+@media screen and (max-width:768px){
+    .sect2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+ }     
+ .card-gauche{
+    width: 90%;
+   }
+   .card-droit{
+    width: 90%;
+
+   }
+}
+.footer{
+    height: 70vh;
+    min-height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 5%; 
+    color: #f4f9fc;;
+    background-color: #3d90c4;
+    
+}
+.caro-foot{
+    min-height: auto;
+    width: 20%;
+    padding: 2% 5%; 
+    display: flex;
+    flex-direction: column;
+}
+.men-footer ul{
+    list-style: none;
+      
+}
+.men-footer ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+}
+.men-service ul li a{
+    text-decoration: none;
+    color: white;
+}
+.ipt{
+    height: 30px;
+    
+}
+@media screen and (max-width:768px){
+    .footer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+   
+ }    
+ .caro-foot{
+    width: 90%;
+ }   
+
+ .ipt{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+}
+}
+.btn2{
+    padding: 10px 10px;
+    width: 81%;
+    background-color: rgb(221, 15, 15);
+    color: white;
+    border: none;
+    text-align: center;
+}
+.formulaire{
+    height: 70vh;
+    min-height: auto;
+    padding: 2% 5%; 
+    color: #f4f9fc;
+}
+.itemiput{
+    display: flex;
+    
+}
