@@ -4,3 +4,26 @@
     background-color: blanchedalmond;
 
 }
+.card-jeux{
+    height: 70vh;
+    background-color: rgb(205, 255, 222);
+    padding: 20px 100px;
+   
+}
+.triange{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 116, 40);
+}
+.carre{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(116, 8, 26);
+
+}
+.card-grand{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}

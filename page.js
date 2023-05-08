@@ -11,7 +11,17 @@ function showdiv(){
    let hidedisplay = document.getElementById("ben")
    function hidediv(){
        displaylet.classList.remove("ben")
-    
-   
-           }
+   }
+let varjeux = document.getElementById("triange")
+function showforme(){
+    varjeux.classList.remove("triange") 
+    varjeux.classList.add("triange") 
+}
+let varjeux2 = document.getElementById("carre")
+function showforme2(){
+    varjeux2.classList.remove("carre") 
+    varjeux2.classList.add("carre") 
+}
+
+
 
