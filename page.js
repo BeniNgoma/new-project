@@ -23,5 +23,10 @@ function showforme2(){
     varjeux2.classList.add("carre") 
 }
 
-
+$(document).ready( function(){
+ $ ('.navbar li  a').click( function(){
+    $ ('a').removeClass("active");
+     $(this).addClass("active");
+ }) ;
+});
 
